@@ -1,0 +1,74 @@
+#container {
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);
+    box-shadow: #ffa500;
+}
+
+#Head 
+{
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);     
+}
+
+#Head:hover
+{
+    color: #fff;   
+}
+
+#table
+{
+    color: #fff;
+}
+
+.thead
+{
+    color: #fff;
+}
+
+.tdata
+{
+    color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+
+
+    #table {
+        text-align: center;
+    }
+
+    .thead {
+        display: none;
+    }
+
+    .tdata {
+        display: block;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .tdata:first-child {
+        background-color: #333;
+        color: #fff;
+        justify-content: center;
+
+    }
+
+    .tdata:nth-child(1)::before {
+        content: "No : ";
+        color: #fff;        
+    }
+
+    .tdata:nth-child(2)::before {
+        content: "State id : ";
+        color: #fff;
+    }
+
+    .tdata:nth-child(3)::before {
+        content: " State  Name : ";
+        color: #fff;
+    }
+
+    .tdata:nth-child(4)::before {
+        content: "Action :";
+        color: #fff;
+    }
+}

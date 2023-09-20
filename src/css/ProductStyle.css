@@ -1,0 +1,189 @@
+#container {
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);
+    box-shadow: #ffa500;
+}
+
+#Head 
+{
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);     
+}
+
+#Head:hover
+{
+    color: #fff;   
+}
+
+#table
+{
+    color: #fff;
+}
+
+.thead
+{
+    color: #fff;
+}
+
+.tdata
+{
+    color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+
+
+    #table {
+        text-align: center;
+    }
+
+    .thead {
+        display: none;
+    }
+
+    .product {
+        display: block;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .product:first-child {
+        background-color: #333;
+        color: #fff;
+        justify-content: center;
+
+    }
+
+    .product:nth-child(1)::before {
+        content: "No : ";
+        color: #fff;        
+    }
+
+    .product:nth-child(2)::before {
+        content: "Product Id : ";
+        color: #fff;
+    }
+
+    .product:nth-child(3)::before {
+        content: "Name : ";
+        color: #fff;
+    }
+
+
+    .product:nth-child(4)::before {
+        content: "Price : ";
+        color: #fff;
+    }
+
+
+    .product:nth-child(5)::before {
+        content: "Details: ";
+        color: #fff;
+    }
+
+    .product:nth-child(6)::before {
+        content: "Image : ";
+        color: #fff;
+    }
+   
+
+    .product:nth-child(7)::before {
+        content: "Action :";
+        color: #fff;
+    }
+}
+
+
+
+
+
+
+
+/* #container {
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);
+    box-shadow: #ffa500;
+}
+
+#Head 
+{
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);     
+}
+
+#Head:hover
+{
+    color: #fff;   
+}
+
+#table
+{
+    color: #fff;
+}
+
+.thead
+{
+    color: #fff;
+}
+
+.tdata-product
+{
+    color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+
+
+    #table {
+        text-align: center;
+    }
+
+    .thead {
+        display: none;
+    }
+
+    .tdata-product {
+        display: block;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .tdata-product:first-child {
+        background-color: #333;
+        color: #fff;
+        justify-content: center;
+
+    }
+
+    .tdata-product:nth-child(1)::before {
+        content: "No : ";
+        color: #fff;        
+    }
+
+    .tdata-product:nth-child(2)::before {
+        content: "Id : ";
+        color: #fff;
+    }
+
+    .tdata-product:nth-child(3)::before {
+        content: "Name : ";
+        color: #fff;
+    }
+
+
+    .tdata-product:nth-child(4)::before {
+        content: "Price: ";
+        color: #fff;
+    }
+
+
+    .tdata-product:nth-child(5)::before {
+        content: "Detail: ";
+        color: #fff;
+    }
+   
+    .tdata-product:nth-child(6)::before {
+        content: "Image :";
+        color: #fff;
+    }
+    .tdata-product:nth-child(7)::before {
+        content: "Action :";
+        color: #fff;
+    }
+} */

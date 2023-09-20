@@ -1,0 +1,113 @@
+#container {
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);
+    box-shadow: #ffa500;
+}
+
+#Head 
+{
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);     
+}
+
+#Head:hover
+{
+    color: #fff;   
+}
+
+#table
+{
+    color: #fff;
+}
+
+.thead
+{
+    color: #fff;
+}
+
+.tdata-Owner
+{
+    color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+
+
+    #table {
+        text-align: center;
+    }
+
+    .thead {
+        display: none;
+    }
+
+    .tdata-Owner {
+        display: block;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .tdata-Owner:first-child {
+        background-color: #333;
+        color: #fff;
+        justify-content: center;
+
+    }
+
+    .tdata-Owner:nth-child(1)::before {
+        content: "No : ";
+        color: #fff;        
+    }
+
+    .tdata-Owner:nth-child(2)::before {
+        content: "Shop Id : ";
+        color: #fff;
+    }
+
+    .tdata-Owner:nth-child(3)::before {
+        content: "Name : ";
+        color: #fff;
+    }
+
+    .tdata-Owner:nth-child(4)::before {
+        content: "Number: ";
+        color: #fff;
+    }
+
+    .tdata-Owner:nth-child(5)::before {
+        content: "Corp Name: ";
+        color: #fff;
+    }
+
+    .tdata-Owner:nth-child(6)::before {
+        content: "State: ";
+        color: #fff;
+    }
+
+    .tdata-Owner:nth-child(7)::before {
+        content: "City: ";
+        color: #fff;
+    }
+
+    .tdata-Owner:nth-child(8)::before {
+        content: "Area: ";
+        color: #fff;
+    }
+
+    .tdata-Owner:nth-child(9)::before {
+        content: "Address: ";
+        color: #fff;
+    }
+
+    .tdata-Owner:nth-child(10)::before {
+        content: "Pincode: ";
+        color: #fff;
+    }
+   
+    .tdata-Owner:nth-child(11)::before {
+        content: "Image :";
+        color: #fff;
+    }
+    .tdata-Owner:nth-child(12)::before {
+        content: "Action :";
+        color: #fff;
+    }
+}
